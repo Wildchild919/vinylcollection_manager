@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crate · a vinyl DJ's record tool</title>
+<style>
+  body { margin: 0; font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; background: #161513; color: #ece7df; }
+  main { max-width: 640px; margin: 0 auto; padding: 72px 24px; }
+  h1 { font-size: 34px; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .disc { display: inline-block; width: 26px; height: 26px; border-radius: 50%; vertical-align: -3px; margin-right: 10px;
+    background: radial-gradient(circle, #fb923c 0 4px, #ece7df 4.5px 11px, #45413b 11.5px 12.5px, #ece7df 13px); }
+  .lead { color: #a39d93; font-size: 19px; margin: 0 0 32px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: #fb923c; }
+  .credits { margin-top: 40px; padding-top: 20px; border-top: 1px solid #2f2c28; color: #a39d93; font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="disc"></span>Crate</h1>
+  <p class="lead">A small personal tool for planning DJ sets from a vinyl collection.</p>
+  <ul>
+    <li>Imports a record collection from Discogs, with every track</li>
+    <li>Adds BPM, energy and descriptive tags to each track</li>
+    <li>Builds playlists and smart playlists, then lists the records to pull for the night</li>
+    <li>Prints a sticker for each record sleeve with tracks, BPM and energy</li>
+  </ul>
+  <p class="credits">
+    BPM data provided by <a href="https://getsongbpm.com">GetSongBPM</a>.
+    Collection data from <a href="https://www.discogs.com">Discogs</a>,
+    tags from <a href="https://musicbrainz.org">MusicBrainz</a> and <a href="https://www.last.fm">Last.fm</a>.
+  </p>
+</main>
+</body>
+</html>
